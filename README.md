@@ -1,5 +1,5 @@
 Automated Billing System <b>jbilling</b>
-========
+=========
 
 jbilling is a Billing System using Jquery to allow you to get a free system in place to allow customers to buy your product/service.
 
