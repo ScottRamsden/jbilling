@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e365dc31-af8a-449c-a0e3-24db2f82c697" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/models/layoutDatabase.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/layout/layout.phtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/IndexController.php" afterPath="$PROJECT_DIR$/application/controllers/IndexController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/scripts/index/index.phtml" afterPath="$PROJECT_DIR$/application/views/scripts/index/index.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/layout/layout.phtml" afterPath="$PROJECT_DIR$/application/views/layout/layout.phtml" />
     </list>
     <ignored path="jbilling.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,7 +22,17 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="layout.phtml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/layout/layout.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="0" selection-start="624" selection-end="624" vertical-scroll-proportion="0.6906077">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -40,13 +47,13 @@
       <list>
         <option value="$PROJECT_DIR$/public/robots.txt" />
         <option value="$PROJECT_DIR$/application/controllers/ErrorController.php" />
-        <option value="$PROJECT_DIR$/application/views/layout/layout.phtml" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/application/models/layoutDatabase.php" />
         <option value="$PROJECT_DIR$/application/controllers/IndexController.php" />
         <option value="$PROJECT_DIR$/application/configs/application.ini" />
         <option value="$PROJECT_DIR$/application/views/scripts/index/index.phtml" />
+        <option value="$PROJECT_DIR$/application/views/layout/layout.phtml" />
       </list>
     </option>
   </component>
@@ -347,7 +354,11 @@
       <created>1354017562061</created>
       <updated>1354017562061</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Adding layout">
+      <created>1354017633601</created>
+      <updated>1354017633601</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -487,16 +498,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/layout/layout.phtml">
+    <entry file="file://$PROJECT_DIR$/application/configs/application.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="9" selection-start="160" selection-end="160" vertical-scroll-proportion="0.10714286">
+        <state line="23" column="0" selection-start="753" selection-end="753" vertical-scroll-proportion="0.39338654">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/configs/application.ini">
+    <entry file="file://$PROJECT_DIR$/application/views/layout/layout.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="753" selection-end="753" vertical-scroll-proportion="0.39338654">
+        <state line="25" column="0" selection-start="624" selection-end="624" vertical-scroll-proportion="0.6906077">
           <folding />
         </state>
       </provider>
