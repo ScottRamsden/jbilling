@@ -5,4 +5,4 @@
  * Time: 11:21
  */
 
-$this->_redirect('/public');
+include('/public/index.php');
