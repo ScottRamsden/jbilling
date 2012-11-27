@@ -1,0 +1,28 @@
+
+<section id="error-page">
+
+	<h2>An error occurred</h2>
+	<h3><?php echo $this->message ?></h3>
+
+	<?php //return; ?>
+</section>
+
+
+<?php if (isset($this->exception)): ?>
+<div id="error-page-exception-container">
+	<h4>Exception information:</h4>
+	<p>
+		<b>Message:</b> <?php echo $this->exception->getMessage() ?>
+	</p>
+
+	<h4>Stack trace:</h4>
+	<pre><?php echo $this->exception->getTraceAsString() ?></pre>
+
+	<h4>Request Parameters:</h4>
+	<pre><?php echo $this->escape(var_export($this->request->getParams(), true)) ?></pre>
+</div>
+<?php endif ?>
+
+
+
+
