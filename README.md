@@ -1,4 +1,4 @@
-<h1>Automated Billing System<b>jbilling</b></h1>
+<h1>Automated Billing System - jbilling</h1>
 
 ----------------
 
