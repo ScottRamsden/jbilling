@@ -10,3 +10,10 @@ h2
     font-family:CenturyGothic;
     font-size: 24px;
 }
+#footer
+{
+	position:absolute;
+	bottom:0px;
+	right:0px;
+	width:100%;
+}
