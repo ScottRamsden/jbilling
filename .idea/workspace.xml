@@ -25,19 +25,19 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="8" selection-start="1016" selection-end="1016" vertical-scroll-proportion="0.0">
+            <state line="44" column="17" selection-start="768" selection-end="768" vertical-scroll-proportion="0.7743363">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layout.phtml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="layout.phtml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/layout/layout.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="16" selection-start="618" selection-end="618" vertical-scroll-proportion="0.5422535">
+            <state line="26" column="16" selection-start="618" selection-end="618" vertical-scroll-proportion="-8.884615">
               <folding />
             </state>
           </provider>
@@ -64,8 +64,8 @@
         <option value="$PROJECT_DIR$/application/controllers/IndexController.php" />
         <option value="$PROJECT_DIR$/application/configs/application.ini" />
         <option value="$PROJECT_DIR$/application/views/scripts/index/index.phtml" />
-        <option value="$PROJECT_DIR$/public/css/style.css" />
         <option value="$PROJECT_DIR$/application/views/layout/layout.phtml" />
+        <option value="$PROJECT_DIR$/public/css/style.css" />
       </list>
     </option>
   </component>
@@ -542,16 +542,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/style.css">
+    <entry file="file://$PROJECT_DIR$/application/views/layout/layout.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="8" selection-start="1016" selection-end="1016" vertical-scroll-proportion="0.0">
+        <state line="26" column="16" selection-start="618" selection-end="618" vertical-scroll-proportion="-8.884615">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/layout/layout.phtml">
+    <entry file="file://$PROJECT_DIR$/public/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="16" selection-start="618" selection-end="618" vertical-scroll-proportion="0.5422535">
+        <state line="44" column="17" selection-start="768" selection-end="768" vertical-scroll-proportion="0.7743363">
           <folding />
         </state>
       </provider>
