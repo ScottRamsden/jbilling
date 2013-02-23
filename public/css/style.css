@@ -19,10 +19,10 @@ float:left;
 text-align:right;
 float:right;
 }
-#footer
+#header
 {
 	position:absolute;
-	bottom:0px;
+	top:0px;
 	right:0px;
 	width:100%;
 	background-color:white;
@@ -30,7 +30,7 @@ float:right;
 	font-family:arial 11px;
 	
 }
-#footer ul
+#header ul
 {
 list-style-type: none;
 padding: 0px;
