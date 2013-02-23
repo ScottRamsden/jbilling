@@ -10,11 +10,11 @@ h2
     font-family:CenturyGothic;
     font-size: 24px;
 }
-#left
+.left
 {
 float:left;
 }
-#right
+.right
 {
 text-align:right;
 float:right;
@@ -26,7 +26,10 @@ float:right;
 	right:0px;
 	width:100%;
 	background-color:white;
-	border-top:solid 5px blue;
+	border-bottom:solid 2px black;
+    -webkit-box-shadow: 0px 8px 5px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px 8px 5px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px 8px 5px rgba(50, 50, 50, 0.75);
 	font-family:arial 11px;
 	
 }
@@ -41,6 +44,7 @@ margin: 0px;
     margin: auto;
     margin-top:200px;
     background-color: white;
+    width: 50%;
 }
 #steps
 {
@@ -48,6 +52,11 @@ margin: 0px;
     bottom:0px;
     right:0px;
     width:100%;
-    background-color:white;
     font-family:arial 11px;
+}
+.step
+{
+    background-color: white;
+    padding: 20px;
+    border: solid 1px #2f4f4f;
 }
