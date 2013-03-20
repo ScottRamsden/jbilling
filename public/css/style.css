@@ -109,7 +109,9 @@ margin: 0px;
     bottom:0px;
     right:0px;
     width:100%;
-    font-family:arial 11px;
+    font-family:Comic sans;
+    font-size:20px;
+    color: #FFF236;
 }
 .step
 {
