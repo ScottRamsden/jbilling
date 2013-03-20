@@ -106,8 +106,7 @@ margin: 0px;
 }
 .step
 {
-    background-color: white;
     padding: 20px;
     margin: 50px;
-    border: solid 1px #2f4f4f;
+    width: 150px;
 }
