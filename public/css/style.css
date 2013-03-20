@@ -15,7 +15,7 @@ h2
     background: #7aa4bf;
     border: 4px solid #aec9db;
 }
-.left:after, .arrow_box:before {
+.left:after, .left:before {
     right: 100%;
     border: solid transparent;
     content: " ";
@@ -44,7 +44,7 @@ h2
     background: #7aa4bf;
     border: 4px solid #aec9db;
 }
-.right:after, .arrow_box:before {
+.right:after, .right:before {
     left: 100%;
     border: solid transparent;
     content: " ";
