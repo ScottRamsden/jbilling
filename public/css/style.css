@@ -12,12 +12,21 @@ h2
 }
 .left
 {
-float:left;
+    float:left;
+    border-color: transparent green transparent transparent;
+    border-style: solid;
+    border-width: 20px;
+    width: 0;
+    height: 0;
 }
 .right
 {
-text-align:right;
-float:right;
+    float:right;
+    border-color: transparent transparent transparent green;
+    border-style: solid;
+    border-width: 20px;
+    width: 0;
+    height: 0;
 }
 #header
 {
