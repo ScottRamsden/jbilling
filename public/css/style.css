@@ -10,12 +10,21 @@ h2
     font-family:CenturyGothic;
     font-size: 24px;
 }
-.left {
+.left
+{
+   float:left;
+}
+.right
+{
+    float:right;
+    text-align: right;
+}
+.leftarrow {
     position: relative;
     background: #7aa4bf;
     border: 4px solid #aec9db;
 }
-.left:after, .left:before {
+.leftarrow:after, .leftarrow:before {
     right: 100%;
     border: solid transparent;
     content: " ";
@@ -25,26 +34,26 @@ h2
     pointer-events: none;
 }
 
-.left:after {
+.leftarrow:after {
     border-color: rgba(122, 164, 191, 0);
     border-right-color: #7aa4bf;
     border-width: 40px;
     top: 50%;
     margin-top: -40px;
 }
-.left:before {
+.leftarrow:before {
     border-color: rgba(174, 201, 219, 0);
     border-right-color: #aec9db;
     border-width: 46px;
     top: 50%;
     margin-top: -46px;
 }
-.right {
+.rightarrow {
     position: relative;
     background: #7aa4bf;
     border: 4px solid #aec9db;
 }
-.right:after, .right:before {
+.rightarrow:after, .rightarrow:before {
     left: 100%;
     border: solid transparent;
     content: " ";
@@ -54,14 +63,14 @@ h2
     pointer-events: none;
 }
 
-.right:after {
+.rightarrow:after {
     border-color: rgba(122, 164, 191, 0);
     border-left-color: #7aa4bf;
     border-width: 40px;
     top: 50%;
     margin-top: -40px;
 }
-.right:before {
+.rightarrow:before {
     border-color: rgba(174, 201, 219, 0);
     border-left-color: #aec9db;
     border-width: 46px;
