@@ -109,8 +109,9 @@ margin: 0px;
     bottom:0px;
     right:0px;
     width:100%;
-    font-family:Comic sans;
-    font-size:20px;
+    text-align: center !important;
+    font-family:Comic Sans MS;
+    font-size:26px;
     color: #FFF236;
 }
 .step
