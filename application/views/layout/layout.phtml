@@ -1,13 +1,17 @@
 <?php
-$this->siteName = "Test";
+$this->siteName = "SRGaming.co.uk";
 ?>
 <head>
     <title><?php echo $this->siteName;?> | Billing</title>
 
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="public/css/style.css" />
+
+    <!-- JS -->
+    <SCRIPT LANGUAGE="JavaScript" SRC="http://code.jquery.com/jquery-1.9.1.min.js"></SCRIPT>
+
 </head>
-<body>
+<body style="overflow: hidden">
 <div id="header">
 	<div class="left">
 	LOGO | LOGIN | LOGOUT | REGISTER | Forgot Password?
@@ -24,10 +28,69 @@ $this->siteName = "Test";
 <div id="main">
     <?php echo $this->layout()->content ?>
 </div>
+<div id="cart">
+    <h3>Cart :</h3>
+</div>
+
 <div id="steps">
 
-    <div class="left leftarrow step">Previous</div>
-    <div class="right rightarrow step">Next</div>
+    <a href="#"><div class="left leftarrow step">Previous</div></a>
+    <a href="#"><div class="right rightarrow step">Next</div></a>
 
 </div>
+<script>
+    step = 1;
+
+    items = 0;
+    stepoption = "#step".concat(step);
+        $(".leftarrow").hide();
+        $("#step2").hide();
+        $("#step3").hide();
+        $("#step4").hide();
+</script>
+
+
+<!-- Menu Items -->
+<script>
+    $("ul a").click(function () {
+        $(this).css({position:'absolute'}).animate({
+            top:(50+items)
+        },300,function(){
+        items = items + 27;
+        item = item + 1;
+        });
+        $(this).appendTo("#cart");
+        $(this).addClass('cartitems');
+    });
+</script>
+
+<!-- Next -->
+<script>
+    $(".rightarrow").click(function () {
+        $(".leftarrow").fadeIn()
+        $(stepoption).hide()
+        step = step+1;
+        stepoption = "#step".concat(step);
+        $(stepoption).fadeIn()
+        if ($('#step3').css('display') == 'block')
+        {
+            $(".rightarrow").hide()
+        }
+    });
+</script>
+
+<!-- Previous -->
+<script>
+    $(".leftarrow").click(function () {
+        $(".rightarrow").fadeIn()
+        $(stepoption).hide()
+        step = step-1;
+        stepoption = "#step".concat(step);
+        $(stepoption).fadeIn()
+        if ($('#step1').css('display') == 'block')
+        {
+            $(".leftarrow").hide()
+        }
+    });
+</script>
 </body>

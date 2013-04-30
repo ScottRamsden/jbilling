@@ -160,3 +160,25 @@ table{
 	margin:auto;
 	text-align:center;
 }
+#cart
+{
+    position:absolute;
+    top:147px;
+    left:50px;
+}
+.cartitems
+{
+    display: block;
+    padding: 3px;
+    width: 260px;
+    background-color: #036;
+    border-bottom: 1px solid #eee;
+    color: #EEE;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.clicked
+{
+    overflow:visible !important;
+}
