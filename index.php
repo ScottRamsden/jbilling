@@ -5,4 +5,4 @@
  * Time: 11:21
  */
 
-include('/public/index.php');
+include('./public/index.php');
