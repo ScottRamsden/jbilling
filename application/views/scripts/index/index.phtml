@@ -10,50 +10,56 @@ $gameNames = array("Counter Strike : GO","Minecraft","Tekkit","Garrys Mod")
 
 <table>
 <tr>
-<td>
-<h2>Web Services</h2>
-<br>
+<h3>Web Services</h3>
 <div class="list">
 <ul class="navlist">
 <?php foreach($webNames as $name)
     {
 
-        echo '<a class="'. strtolower(str_replace(" ","_",$name)) .'" href="#"><li>'. $name .'</li></a>';
+        echo '<a class="web addable '. strtolower(str_replace(" ","_",$name)) .'" href="#"><li>'. $name .'</li></a>';
     }
 ?>
 </ul>
 </div>
-</td>
-<td>
-<h2>Game Packages</h2>
-<br>
+</tr>
+<tr>
+<h3>Game Packages</h3>
 <div class="list">
 <ul class="navlist">
 <?php foreach($gameNames as $name)
     {
 
-        echo '<a class="'. strtolower(str_replace(" ","_",$name)) .'" href="#"><li>'. $name .'</li></a>';
+        echo '<a class="game addable '. strtolower(str_replace(" ","_",$name)) .'" href="#"><li>'. $name .'</li></a>';
     }
 ?>
 </ul>
 </div>
-</td>
 </tr>
 </table>
-<p>If your looking for something that is not here, <a href="mailto:<?php $this->email;?>">email us!<a/></p>
+<p style="font-family: Arial;font-size:12px;color:whitesmoke;" align="center">If your looking for something that is not here, <a href="mailto:<?php $this->email;?>">email us!</a></p>
 </div>
 
 <div id="step2">
-
+    <br/>
+    <h4 class="nothingAdded">You have not added anything from the selection screen</h4>
 </div>
 
 
 <div id="step3">
-STEP THREE
+    <br/>
+    <h4 class="nothingAdded">You have not added anything from the selection screen</h4>
+    <br/>
+    <h4>Total : &pound;0.00</h4>
 </div>
 
 <script>
-    $(".<?php foreach($gameNames as $name) echo strtolower(str_replace(" ","_",$name));?>").click(function () {
-        $("#step2").append('test');
+    <?php foreach($gameNames as $name):?>
+    <?php $theName = "." . strtolower(str_replace(" ","_",$name));?>
+    $("<?php echo $theName;?>").one("click", function() {
+        $("#step2").append('<h4>Select options for <u><?php echo $name;?></u></h4>');
+        $(".nothingAdded").hide();
+        $(this).removeClass('.addable');
+
     });
+    <?php endforeach;?>
 </script>

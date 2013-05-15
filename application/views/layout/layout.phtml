@@ -14,7 +14,7 @@ $this->siteName = "SRGaming.co.uk";
 <body style="overflow: hidden">
 <div id="header">
 	<div class="left">
-	LOGO | LOGIN | LOGOUT | REGISTER | Forgot Password?
+        <h5><?php echo $this->siteName;?> | Get your own website or game server!</h5>
 	</div>
 	
 	<div class="right">
@@ -54,8 +54,8 @@ $this->siteName = "SRGaming.co.uk";
 <script>
     $("ul a").click(function () {
         $(this).css({position:'absolute'}).animate({
-            top:(50+items)
-        },300,function(){
+            top:(70+items)
+        },100,function(){
         items = items + 27;
         item = item + 1;
         });
