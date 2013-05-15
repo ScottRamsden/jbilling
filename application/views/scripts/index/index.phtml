@@ -1,8 +1,7 @@
 <?php
-$nameCount = 1;
+$webNames = array("Web Space Basic","Web Space Silver","Web Space Gold",".co.uk Domain + Setup","Web Design Setup");
 
-// Static names TEMP
-$name1 = "Counter Strike : Global Offensive";
+$gameNames = array("Counter Strike : GO","Minecraft","Tekkit","Garrys Mod")
 ?>
 
 
@@ -16,11 +15,12 @@ $name1 = "Counter Strike : Global Offensive";
 <br>
 <div class="list">
 <ul class="navlist">
-	<a href="#"><li>Web Space Basic</li></a>
-	<a href="#"><li>Web Space Silver</li></a>
-	<a href="#"><li>Web Space Gold</li></a>
-	<a href="#"><li>.co.uk Domain + Setup</li></a>
-	<a href="#"><li>Web Design Setup</li></a>
+<?php foreach($webNames as $name)
+    {
+
+        echo '<a class="'. strtolower(str_replace(" ","_",$name)) .'" href="#"><li>'. $name .'</li></a>';
+    }
+?>
 </ul>
 </div>
 </td>
@@ -29,11 +29,12 @@ $name1 = "Counter Strike : Global Offensive";
 <br>
 <div class="list">
 <ul class="navlist">
-	<a class="<?php echo str_replace(' ', '_',(strtolower($name), $nameCount)); $nameCount++;?>" href="#"><li><?php echo $name, $nameCount;?></li></a>
-	<a href="#"><li>Minecraft</li></a>
-	<a href="#"><li>Garrys Mod</li></a>
-	<a href="#"><li>Tekkit</li></a>
-	<a href="#"><li>Terraria</li></a>
+<?php foreach($gameNames as $name)
+    {
+
+        echo '<a class="'. strtolower(str_replace(" ","_",$name)) .'" href="#"><li>'. $name .'</li></a>';
+    }
+?>
 </ul>
 </div>
 </td>
@@ -50,3 +51,9 @@ $name1 = "Counter Strike : Global Offensive";
 <div id="step3">
 STEP THREE
 </div>
+
+<script>
+    $(".<?php foreach($gameNames as $name) echo strtolower(str_replace(" ","_",$name));?>").click(function () {
+        $("#step2").append('test');
+    });
+</script>
